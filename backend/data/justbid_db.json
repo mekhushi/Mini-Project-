@@ -1,0 +1,1029 @@
+{
+  "users": [
+    {
+      "id": "id_wn0d629mtx5q1xo",
+      "role": "user",
+      "createdAt": "2026-09-11T16:14:55.308Z",
+      "updatedAt": "2026-09-11T16:14:55.308Z",
+      "email": "khushi899@gmail.com",
+      "password": "$2b$10$klylr7kK2oNgMwtMaehmXOqD2ocK/st.oPwfPslFD7AVDDy/NzLeS",
+      "name": "khushi",
+      "company": {
+        "create": {
+          "name": "khushi's Construction Hub",
+          "industry": "General Construction"
+        }
+      }
+    },
+    {
+      "id": "id_uy0k7edmtxyv98b",
+      "role": "user",
+      "createdAt": "2026-09-12T05:50:46.907Z",
+      "updatedAt": "2026-09-12T05:50:46.907Z",
+      "email": "tezt@67ytu.com",
+      "password": "$2b$10$NTn0ITS5fHd2QeWtaRdDm.cMLDNPAU6sxfEKdkOeCL4/UCyfG/jGK",
+      "name": "khushi",
+      "company": {
+        "create": {
+          "name": "khushi's Construction Hub",
+          "industry": "General Construction"
+        }
+      }
+    }
+  ],
+  "companies": [
+    {
+      "id": "id_90jp9gzmtx5q2ux",
+      "cpvCodes": [
+        "72000000-5",
+        "31682000-0",
+        "48180000-3"
+      ],
+      "keywords": [
+        "cloud",
+        "software",
+        "telemetry",
+        "smart",
+        "security",
+        "infrastructure"
+      ],
+      "createdAt": "2026-09-11T16:14:56.505Z",
+      "updatedAt": "2026-09-11T16:54:30.714Z",
+      "userId": "id_wn0d629mtx5q1xo",
+      "name": "khushi Solutions AG",
+      "industry": "IT & Infrastructure Services",
+      "location": "Switzerland",
+      "minBudget": null,
+      "maxBudget": null
+    },
+    {
+      "id": "id_5ne4dksmtxyv9vs",
+      "cpvCodes": [
+        "72000000-5",
+        "31682000-0",
+        "48180000-3"
+      ],
+      "keywords": [
+        "cloud",
+        "software",
+        "telemetry",
+        "smart",
+        "security",
+        "infrastructure"
+      ],
+      "createdAt": "2026-09-12T05:50:47.752Z",
+      "updatedAt": "2026-09-12T05:50:47.752Z",
+      "userId": "id_uy0k7edmtxyv98b",
+      "name": "khushi Solutions AG",
+      "industry": "IT & Infrastructure Services",
+      "location": "Switzerland"
+    }
+  ],
+  "tenders": [
+    {
+      "id": "tender_ch_001",
+      "externalId": "SIMAP-2026-99401",
+      "publicationId": "PUB-CH-99401",
+      "title": "Federal Hybrid Cloud Migration & Zero-Trust Infrastructure Architecture",
+      "description": "Procurement of enterprise-grade cloud integration, multi-cloud management platforms, and zero-trust security orchestration for the Federal Department of Finance (FDF). The contractor will design, migrate, and maintain sovereign Swiss hybrid cloud workloads compliant with ISO 27001 and FINMA circulars.",
+      "cpvCodes": [
+        "72000000-5",
+        "72222300-2",
+        "72253000-3"
+      ],
+      "category": "IT & Software",
+      "location": "Bern, Switzerland",
+      "budget": 4800000,
+      "deadline": "2026-09-29T15:52:18.493Z",
+      "publicationDate": "2026-09-08T15:52:18.494Z",
+      "offerOpening": "2026-09-30T15:52:18.494Z",
+      "type": "Public Tender (WTO GPA)",
+      "status": "open",
+      "authority": "Federal Office of Information Technology (FOITT)",
+      "requirements": [
+        "ISO 27001 and ISO 27018 Certification",
+        "Demonstrated experience with hybrid Azure/AWS GovCloud or Swiss Sovereign Cloud",
+        "Minimum 5 enterprise references with contract value > 2M CHF",
+        "Security clearance level SECRET for all lead project staff"
+      ]
+    },
+    {
+      "id": "tender_ch_002",
+      "externalId": "SIMAP-2026-99402",
+      "publicationId": "PUB-CH-99402",
+      "title": "Zurich Smart Grid IoT Sensor Telemetry & Distributed Energy Management",
+      "description": "Supply, installation, and central software orchestration for 45,000 smart grid telemetry sensors and automated substation telemetry. Includes real-time edge computing nodes, low-latency LoRaWAN/NB-IoT communication layer, and integration with EWZ SCADA systems.",
+      "cpvCodes": [
+        "31682000-0",
+        "72212000-4",
+        "38570000-1"
+      ],
+      "category": "Engineering & Energy",
+      "location": "Zurich, Switzerland",
+      "budget": 3200000,
+      "deadline": "2026-10-06T15:52:18.494Z",
+      "publicationDate": "2026-09-06T15:52:18.494Z",
+      "offerOpening": "2026-10-07T15:52:18.494Z",
+      "type": "Public Tender",
+      "status": "open",
+      "authority": "Elektrizitätswerk der Stadt Zürich (EWZ)",
+      "requirements": [
+        "CE and IEC 61850 substation compliance",
+        "Edge computing firmware update capabilities with cryptographically signed payloads",
+        "5-year SLA for hardware replacements with 4-hour MTTR"
+      ]
+    },
+    {
+      "id": "tender_ch_003",
+      "externalId": "SIMAP-2026-99403",
+      "publicationId": "PUB-CH-99403",
+      "title": "Geneva University Hospital (HUG) Next-Gen AI Diagnostic Imaging & PACS",
+      "description": "Enterprise imaging modernization, vendor-neutral archive (VNA), and AI-assisted radiological diagnosis toolsuite for HUG. The system will unify radiology, pathology, and cardiology workflows across 3 clinical hospital campuses.",
+      "cpvCodes": [
+        "48180000-3",
+        "33111000-1",
+        "72260000-5"
+      ],
+      "category": "Healthcare & MedTech",
+      "location": "Geneva, Switzerland",
+      "budget": 6500000,
+      "deadline": "2026-09-23T15:52:18.494Z",
+      "publicationDate": "2026-09-09T15:52:18.494Z",
+      "offerOpening": "2026-09-24T15:52:18.494Z",
+      "type": "Public Tender (WTO GPA)",
+      "status": "open",
+      "authority": "Hôpitaux Universitaires de Genève (HUG)",
+      "requirements": [
+        "DICOM 3.0, HL7 FHIR release 4 native integration",
+        "CE Medical Device Regulation (MDR) Class IIa certification",
+        "Multi-lingual clinician interface (French, German, English)"
+      ]
+    },
+    {
+      "id": "tender_ch_004",
+      "externalId": "SIMAP-2026-99404",
+      "publicationId": "PUB-CH-99404",
+      "title": "Swiss Federal Railways (SBB) Predictive Track Asset Monitoring & Digital Twins",
+      "description": "Development of high-fidelity digital twin pipeline for railway infrastructure. Sensor ingest, track geometry computer vision analysis from maintenance trains, and automated predictive maintenance work order generation.",
+      "cpvCodes": [
+        "72220000-3",
+        "34940000-8",
+        "72315000-6"
+      ],
+      "category": "Transport & Logistics",
+      "location": "Olten / Bern, Switzerland",
+      "budget": 8900000,
+      "deadline": "2026-10-13T15:52:18.494Z",
+      "publicationDate": "2026-09-04T15:52:18.494Z",
+      "offerOpening": "2026-10-14T15:52:18.494Z",
+      "type": "Negotiated Tender",
+      "status": "open",
+      "authority": "SBB AG Infrastructure",
+      "requirements": [
+        "Proven digital twin deployment in heavy rail or safety-critical transportation",
+        "Integration with SAP S/4HANA Asset Management",
+        "Real-time sensor telemetry processing exceeding 100k events/sec"
+      ]
+    },
+    {
+      "id": "tender_ch_005",
+      "externalId": "SIMAP-2026-99405",
+      "publicationId": "PUB-CH-99405",
+      "title": "Canton of Basel-Stadt Civic Digital Identity (eID) & Verifiable Credentials Hub",
+      "description": "Implementation of a decentralized, privacy-preserving digital identity credential wallet and canton-wide verification infrastructure adhering to Swiss E-ID standards and eIDAS 2.0 interoperability.",
+      "cpvCodes": [
+        "72212732-9",
+        "72240000-1",
+        "79417000-0"
+      ],
+      "category": "IT & Software",
+      "location": "Basel, Switzerland",
+      "budget": 2750000,
+      "deadline": "2026-09-20T15:52:18.494Z",
+      "publicationDate": "2026-09-05T15:52:18.494Z",
+      "offerOpening": "2026-09-21T15:52:18.494Z",
+      "type": "Public Tender",
+      "status": "open",
+      "authority": "Departement für Wirtschaft, Soziales und Umwelt Basel",
+      "requirements": [
+        "Zero-knowledge proof (ZKP) cryptographic implementation verification",
+        "Open-source core architecture with full audit trail",
+        "WCAG 2.2 AA accessibility compliance for mobile wallet interfaces"
+      ]
+    },
+    {
+      "id": "tender_eu_006",
+      "externalId": "TED-2026-44810",
+      "publicationId": "PUB-EU-44810",
+      "title": "European Green Hydrogen Pipeline SCADA & Distributed Safety Systems",
+      "description": "Design and turnkey delivery of a supervisory control and distributed telemetry safety system for cross-border clean hydrogen transport facilities between Germany, France, and Switzerland.",
+      "cpvCodes": [
+        "42961000-0",
+        "71320000-7",
+        "44161200-8"
+      ],
+      "category": "Engineering & Energy",
+      "location": "Strasbourg / Basel Border",
+      "budget": 14200000,
+      "deadline": "2026-10-26T15:52:18.494Z",
+      "publicationDate": "2026-09-10T15:52:18.494Z",
+      "offerOpening": "2026-10-27T15:52:18.494Z",
+      "type": "EU Open Tender (TED)",
+      "status": "open",
+      "authority": "Central Rhine Energy Commission",
+      "requirements": [
+        "SIL 3 Functional Safety Certification (IEC 61508)",
+        "Cross-border regulatory compliance in DACH & EU jurisdictions",
+        "24/7 Redundant command center infrastructure"
+      ]
+    },
+    {
+      "id": "tender_ch_007",
+      "externalId": "SIMAP-2026-99407",
+      "publicationId": "PUB-CH-99407",
+      "title": "Canton of Lucerne Cyber Security Operations Center (SOC) Managed Services",
+      "description": "Provision of 24/7 managed detection and response (MDR), security incident handling, threat intelligence feeds, and biannual red team penetration testing for the cantonal public administration network.",
+      "cpvCodes": [
+        "72222300-2",
+        "79710000-4",
+        "72800000-8"
+      ],
+      "category": "Cybersecurity",
+      "location": "Lucerne, Switzerland",
+      "budget": 3850000,
+      "deadline": "2026-10-02T15:52:18.494Z",
+      "publicationDate": "2026-09-07T15:52:18.494Z",
+      "offerOpening": "2026-10-03T15:52:18.494Z",
+      "type": "Public Tender",
+      "status": "open",
+      "authority": "Kanton Luzern Finanzdepartement",
+      "requirements": [
+        "SOC 2 Type II and ISO 27001 accredited facilities on Swiss territory",
+        "Mean time to detect (MTTD) < 15 minutes, MTTR < 60 minutes",
+        "Experienced forensic responders with SANS/GIAC certifications"
+      ]
+    },
+    {
+      "id": "tender_ch_008",
+      "externalId": "SIMAP-2026-99408",
+      "publicationId": "PUB-CH-99408",
+      "title": "Lausanne Metropolitan Autonomous Fleet Telematics & Micro-Transit Platform",
+      "description": "SaaS routing engine and autonomous vehicle dispatch management platform for the Greater Lausanne public transit system (TL). Includes on-demand commuter scheduling and multimodal fare integration.",
+      "cpvCodes": [
+        "72212140-8",
+        "60112000-6",
+        "48490000-9"
+      ],
+      "category": "Transport & Logistics",
+      "location": "Lausanne, Switzerland",
+      "budget": 4100000,
+      "deadline": "2026-10-11T15:52:18.494Z",
+      "publicationDate": "2026-09-03T15:52:18.494Z",
+      "offerOpening": "2026-10-12T15:52:18.494Z",
+      "type": "Public Tender (WTO GPA)",
+      "status": "open",
+      "authority": "Transports publics de la région lausannoise (tl)",
+      "requirements": [
+        "GTFS-RT integration capabilities",
+        "Autonomous vehicle V2X protocol compliance",
+        "Scalable cloud architecture handling 50k concurrent rider requests"
+      ]
+    },
+    {
+      "id": "id_m7x6m8gmtxvl63q",
+      "createdAt": "2026-09-12T04:18:57.446Z",
+      "updatedAt": "2026-09-12T06:29:35.937Z",
+      "externalId": "62ecefba-ff2d-469a-8d68-5670e07da8fb",
+      "title": "Disability Access (LHand) Compliance Retrofitting for Municipal Bus Stations – Morges Infrastructure Dept",
+      "description": "Civil engineering works and accessibility retrofitting of public transit bus stop platforms to satisfy the Swiss Federal Act on Equal Rights for Persons with Disabilities (LHand). Includes platform elevation, tactile ground paving, and sheltered commuter infrastructure.",
+      "cpvCodes": [],
+      "deadline": "2026-10-06T06:29:35.935Z",
+      "publicationDate": "2026-09-12T00:00:00.000Z",
+      "offerOpening": null,
+      "location": "Morges, Vaud (CH)",
+      "budget": 1450000,
+      "type": "tender",
+      "category": "Civil Infrastructure",
+      "status": "open",
+      "publicationId": "b3e39dc6-e2d0-4b23-84a1-4f515dde7c1d",
+      "detailsFetchedAt": null,
+      "rawData": {
+        "external_id": "62ecefba-ff2d-469a-8d68-5670e07da8fb",
+        "source": "simap",
+        "source_url": "https://www.simap.ch/project/12870",
+        "title": {
+          "de": null,
+          "en": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "fr": "Mise en conformité LHand d'arrêts bus",
+          "it": null
+        },
+        "project_number": "12870",
+        "publication_number": "12870-02",
+        "project_type": "tender",
+        "project_sub_type": "construction",
+        "process_type": "open",
+        "lots_type": "without",
+        "authority": {
+          "de": null,
+          "en": null,
+          "fr": "Commune de Morges - Services des Infrastructures",
+          "it": null
+        },
+        "publication_date": "2026-09-12",
+        "pub_type": "award",
+        "corrected": false,
+        "region": "VD",
+        "country": "CH",
+        "order_address": {
+          "countryId": "CH",
+          "cantonId": "VD",
+          "postalCode": "1110",
+          "city": {
+            "de": null,
+            "en": null,
+            "fr": "Morges",
+            "it": null
+          }
+        },
+        "language": "en",
+        "raw_data": {
+          "id": "62ecefba-ff2d-469a-8d68-5670e07da8fb",
+          "title": {
+            "de": null,
+            "en": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+            "fr": "Mise en conformité LHand d'arrêts bus",
+            "it": null
+          },
+          "projectNumber": "12870",
+          "projectType": "tender",
+          "projectSubType": "construction",
+          "processType": "open",
+          "lotsType": "without",
+          "publicationId": "b3e39dc6-e2d0-4b23-84a1-4f515dde7c1d",
+          "publicationDate": "2026-09-12",
+          "publicationNumber": "12870-02",
+          "pubType": "award",
+          "corrected": false,
+          "procOfficeName": {
+            "de": null,
+            "en": null,
+            "fr": "Commune de Morges - Services des Infrastructures",
+            "it": null
+          },
+          "lots": [],
+          "orderAddressOnlyDescription": "no",
+          "orderAddress": {
+            "countryId": "CH",
+            "cantonId": "VD",
+            "postalCode": "1110",
+            "city": {
+              "de": null,
+              "en": null,
+              "fr": "Morges",
+              "it": null
+            }
+          }
+        },
+        "updated_at": "2026-09-12T04:18:53.907591+00:00",
+        "publication_id": "b3e39dc6-e2d0-4b23-84a1-4f515dde7c1d"
+      }
+    },
+    {
+      "id": "id_siqd68mmtxvl63w",
+      "createdAt": "2026-09-12T04:18:57.452Z",
+      "updatedAt": "2026-09-12T06:29:35.940Z",
+      "externalId": "c3f760a5-9ea8-4875-9e1a-612b59c5ffb7",
+      "title": "Zehntenweg Senior Living Housing Development & Architectural Realization – Wiesendangen Municipality",
+      "description": "Architectural planning, structural engineering, and general contracting for the development of modern energy-efficient senior citizen residential units, accessibility corridors, and municipal community facilities.",
+      "cpvCodes": [],
+      "deadline": "2026-10-20T06:29:35.935Z",
+      "publicationDate": "2026-09-12T00:00:00.000Z",
+      "offerOpening": null,
+      "location": "Wiesendangen, Zurich (CH)",
+      "budget": 8200000,
+      "type": "competition",
+      "category": "Public Architecture & Housing",
+      "status": "open",
+      "publicationId": "13ff8824-ebc9-4d85-9953-0f05ca5e4cb4",
+      "detailsFetchedAt": null,
+      "rawData": {
+        "external_id": "c3f760a5-9ea8-4875-9e1a-612b59c5ffb7",
+        "source": "simap",
+        "source_url": "https://www.simap.ch/project/19399",
+        "title": {
+          "de": "Wiesendangen - Alterswohnungen Zehntenweg",
+          "en": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "fr": "Wiesendangen - Appartements pour retraités Zehntenweg",
+          "it": null
+        },
+        "project_number": "19399",
+        "publication_number": "19399-04",
+        "project_type": "competition",
+        "project_sub_type": "project_competition",
+        "process_type": "selective",
+        "lots_type": "without",
+        "authority": {
+          "de": "Gemeinde Wiesendangen (Suter von Känel Wild AG)",
+          "en": null,
+          "fr": null,
+          "it": null
+        },
+        "publication_date": "2026-09-12",
+        "pub_type": "award",
+        "corrected": false,
+        "region": "ZH",
+        "country": "CH",
+        "order_address": {
+          "countryId": "CH",
+          "cantonId": "ZH",
+          "postalCode": "8542",
+          "city": {
+            "de": "Wiesendangen",
+            "en": null,
+            "fr": null,
+            "it": null
+          }
+        },
+        "language": "en",
+        "raw_data": {
+          "id": "c3f760a5-9ea8-4875-9e1a-612b59c5ffb7",
+          "title": {
+            "de": "Wiesendangen - Alterswohnungen Zehntenweg",
+            "en": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+            "fr": "Wiesendangen - Appartements pour retraités Zehntenweg",
+            "it": null
+          },
+          "projectNumber": "19399",
+          "projectType": "competition",
+          "projectSubType": "project_competition",
+          "processType": "selective",
+          "lotsType": "without",
+          "publicationId": "13ff8824-ebc9-4d85-9953-0f05ca5e4cb4",
+          "publicationDate": "2026-09-12",
+          "publicationNumber": "19399-04",
+          "pubType": "award",
+          "corrected": false,
+          "procOfficeName": {
+            "de": "Gemeinde Wiesendangen (Suter von Känel Wild AG)",
+            "en": null,
+            "fr": null,
+            "it": null
+          },
+          "lots": [],
+          "orderAddressOnlyDescription": "no",
+          "orderAddress": {
+            "countryId": "CH",
+            "cantonId": "ZH",
+            "postalCode": "8542",
+            "city": {
+              "de": "Wiesendangen",
+              "en": null,
+              "fr": null,
+              "it": null
+            }
+          }
+        },
+        "updated_at": "2026-09-12T04:18:54.472321+00:00",
+        "publication_id": "13ff8824-ebc9-4d85-9953-0f05ca5e4cb4"
+      }
+    },
+    {
+      "id": "id_3sgiq64mtxvl63y",
+      "createdAt": "2026-09-12T04:18:57.454Z",
+      "updatedAt": "2026-09-12T06:29:35.943Z",
+      "externalId": "27cb8553-3dab-4408-b4e8-afe170f2fa46",
+      "title": "National Highway Lot L10183: Seeli Pfyngut Civil Engineering & Embankment Works – Federal Roads Office",
+      "description": "Heavy civil engineering, geotechnical ground stabilization, slope drainage channels, and reinforced concrete galleries along national road segment L10183 under the Cantonal Civil Construction Authority.",
+      "cpvCodes": [],
+      "deadline": "2026-10-01T06:29:35.935Z",
+      "publicationDate": "2026-09-12T00:00:00.000Z",
+      "offerOpening": null,
+      "location": "Leuk, Valais (CH)",
+      "budget": 12800000,
+      "type": "tender",
+      "category": "Highways & Civil Works",
+      "status": "open",
+      "publicationId": "23777f33-2abc-416a-abfb-065ce5965a44",
+      "detailsFetchedAt": null,
+      "rawData": {
+        "external_id": "27cb8553-3dab-4408-b4e8-afe170f2fa46",
+        "source": "simap",
+        "source_url": "https://www.simap.ch/project/29013",
+        "title": {
+          "de": "Baulos L10183, SL GE Seeli Pfyngut",
+          "en": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "fr": "Lot L10183, SL GE Seeli Pfyngut",
+          "it": null
+        },
+        "project_number": "29013",
+        "publication_number": "29013-03",
+        "project_type": "tender",
+        "project_sub_type": "construction",
+        "process_type": "open",
+        "lots_type": "without",
+        "authority": {
+          "de": "Dienststelle für Nationalstrassenbau / Service de la construction des routes nationales",
+          "en": null,
+          "fr": "Dienststelle für Nationalstrassenbau / Service de la construction des routes nationales",
+          "it": null
+        },
+        "publication_date": "2026-09-12",
+        "pub_type": "abandonment",
+        "corrected": false,
+        "region": "VS",
+        "country": "CH",
+        "order_address": {
+          "countryId": "CH",
+          "cantonId": "VS",
+          "postalCode": "3953",
+          "city": {
+            "de": "Leuk",
+            "en": null,
+            "fr": "Loèche",
+            "it": null
+          }
+        },
+        "language": "en",
+        "raw_data": {
+          "id": "27cb8553-3dab-4408-b4e8-afe170f2fa46",
+          "title": {
+            "de": "Baulos L10183, SL GE Seeli Pfyngut",
+            "en": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+            "fr": "Lot L10183, SL GE Seeli Pfyngut",
+            "it": null
+          },
+          "projectNumber": "29013",
+          "projectType": "tender",
+          "projectSubType": "construction",
+          "processType": "open",
+          "lotsType": "without",
+          "publicationId": "23777f33-2abc-416a-abfb-065ce5965a44",
+          "publicationDate": "2026-09-12",
+          "publicationNumber": "29013-03",
+          "pubType": "abandonment",
+          "corrected": false,
+          "procOfficeName": {
+            "de": "Dienststelle für Nationalstrassenbau / Service de la construction des routes nationales",
+            "en": null,
+            "fr": "Dienststelle für Nationalstrassenbau / Service de la construction des routes nationales",
+            "it": null
+          },
+          "lots": [],
+          "orderAddressOnlyDescription": "no",
+          "orderAddress": {
+            "countryId": "CH",
+            "cantonId": "VS",
+            "postalCode": "3953",
+            "city": {
+              "de": "Leuk",
+              "en": null,
+              "fr": "Loèche",
+              "it": null
+            }
+          }
+        },
+        "updated_at": "2026-09-12T04:18:55.156712+00:00",
+        "publication_id": "23777f33-2abc-416a-abfb-065ce5965a44"
+      }
+    },
+    {
+      "id": "id_ghxgaj1mtxvl643",
+      "createdAt": "2026-09-12T04:18:57.459Z",
+      "updatedAt": "2026-09-12T06:29:35.946Z",
+      "externalId": "bcf74265-a325-484c-9bb2-e2c9a4ce52aa",
+      "title": "Zurich Commercial-to-Residential Conversion: Architectural Carpentry & Joinery (Lot BKP 273.3) – PWG Foundation",
+      "description": "Execution of precision interior architectural woodworking, acoustic paneling, timber partitions, and custom cabinetry for the high-density conversion of commercial office buildings into residential apartments.",
+      "cpvCodes": [],
+      "deadline": "2026-09-27T06:29:35.935Z",
+      "publicationDate": "2026-09-12T00:00:00.000Z",
+      "offerOpening": null,
+      "location": "Zurich (CH)",
+      "budget": 950000,
+      "type": "tender",
+      "category": "Interior Works & Carpentry",
+      "status": "open",
+      "publicationId": "42c50cca-f148-46b2-af04-67c09f2a9ae0",
+      "detailsFetchedAt": null,
+      "rawData": {
+        "external_id": "bcf74265-a325-484c-9bb2-e2c9a4ce52aa",
+        "source": "simap",
+        "source_url": "https://www.simap.ch/project/36997",
+        "title": {
+          "de": "Schärenmoosstrasse 115, 117, 8052 Zürich, Umbau Büro zu Wohnen, Submission BKP 273.3 Schreinerarbeiten",
+          "en": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "fr": "Schärenmoosstrasse 115, 117, 8052 Zurich, transformation de bureaux en logements, appel d'offres BKP 273.3 : travaux de menuiserie",
+          "it": null
+        },
+        "project_number": "36997",
+        "publication_number": "36997-02",
+        "project_type": "tender",
+        "project_sub_type": "construction",
+        "process_type": "open",
+        "lots_type": "without",
+        "authority": {
+          "de": "Stiftung PWG",
+          "en": null,
+          "fr": null,
+          "it": null
+        },
+        "publication_date": "2026-09-12",
+        "pub_type": "award",
+        "corrected": false,
+        "region": "ZH",
+        "country": "CH",
+        "order_address": {
+          "countryId": "CH",
+          "cantonId": "ZH",
+          "postalCode": "8052",
+          "city": {
+            "de": "Zürich",
+            "en": null,
+            "fr": null,
+            "it": null
+          }
+        },
+        "language": "en",
+        "raw_data": {
+          "id": "bcf74265-a325-484c-9bb2-e2c9a4ce52aa",
+          "title": {
+            "de": "Schärenmoosstrasse 115, 117, 8052 Zürich, Umbau Büro zu Wohnen, Submission BKP 273.3 Schreinerarbeiten",
+            "en": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+            "fr": "Schärenmoosstrasse 115, 117, 8052 Zurich, transformation de bureaux en logements, appel d'offres BKP 273.3 : travaux de menuiserie",
+            "it": null
+          },
+          "projectNumber": "36997",
+          "projectType": "tender",
+          "projectSubType": "construction",
+          "processType": "open",
+          "lotsType": "without",
+          "publicationId": "42c50cca-f148-46b2-af04-67c09f2a9ae0",
+          "publicationDate": "2026-09-12",
+          "publicationNumber": "36997-02",
+          "pubType": "award",
+          "corrected": false,
+          "procOfficeName": {
+            "de": "Stiftung PWG",
+            "en": null,
+            "fr": null,
+            "it": null
+          },
+          "lots": [],
+          "orderAddressOnlyDescription": "no",
+          "orderAddress": {
+            "countryId": "CH",
+            "cantonId": "ZH",
+            "postalCode": "8052",
+            "city": {
+              "de": "Zürich",
+              "en": null,
+              "fr": null,
+              "it": null
+            }
+          }
+        },
+        "updated_at": "2026-09-12T04:18:56.053461+00:00",
+        "publication_id": "42c50cca-f148-46b2-af04-67c09f2a9ae0"
+      }
+    },
+    {
+      "id": "id_f8x8kvamtxvl646",
+      "createdAt": "2026-09-12T04:18:57.462Z",
+      "updatedAt": "2026-09-12T06:29:35.951Z",
+      "externalId": "79161545-aacd-4b10-9e2d-f846a5b2e7b9",
+      "title": "Zurich Commercial-to-Residential Conversion: Interior Surface Coating & Painting (Lot BKP 285.1) – PWG Foundation",
+      "description": "Turnkey application of specialized low-emission mineral interior paints, anti-corrosive primer coatings, and drywall finishes across 60 newly repurposed residential living units on Schärenmoosstrasse.",
+      "cpvCodes": [],
+      "deadline": "2026-09-28T06:29:35.935Z",
+      "publicationDate": "2026-09-12T00:00:00.000Z",
+      "offerOpening": null,
+      "location": "Zurich (CH)",
+      "budget": 620000,
+      "type": "tender",
+      "category": "Finishing & Surface Engineering",
+      "status": "open",
+      "publicationId": "98c0c60a-6f1c-43a2-9a43-076089d86341",
+      "detailsFetchedAt": null,
+      "rawData": {
+        "external_id": "79161545-aacd-4b10-9e2d-f846a5b2e7b9",
+        "source": "simap",
+        "source_url": "https://www.simap.ch/project/36999",
+        "title": {
+          "de": "Schärenmoosstrasse 115, 117, 8052 Zürich, Umbau Büro zu Wohnen, Submission BKP 285.1 Innere Malerarbeiten",
+          "en": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "fr": "Schärenmoosstrasse 115, 117, 8052 Zurich, transformation de bureaux en logements, appel d'offres BKP 285.1 : travaux de peinture intérieure",
+          "it": null
+        },
+        "project_number": "36999",
+        "publication_number": "36999-03",
+        "project_type": "tender",
+        "project_sub_type": "construction",
+        "process_type": "open",
+        "lots_type": "without",
+        "authority": {
+          "de": "Stiftung PWG",
+          "en": null,
+          "fr": null,
+          "it": null
+        },
+        "publication_date": "2026-09-12",
+        "pub_type": "award",
+        "corrected": false,
+        "region": "ZH",
+        "country": "CH",
+        "order_address": {
+          "countryId": "CH",
+          "cantonId": "ZH",
+          "postalCode": "8052",
+          "city": {
+            "de": "Zürich",
+            "en": null,
+            "fr": null,
+            "it": null
+          }
+        },
+        "language": "en",
+        "raw_data": {
+          "id": "79161545-aacd-4b10-9e2d-f846a5b2e7b9",
+          "title": {
+            "de": "Schärenmoosstrasse 115, 117, 8052 Zürich, Umbau Büro zu Wohnen, Submission BKP 285.1 Innere Malerarbeiten",
+            "en": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+            "fr": "Schärenmoosstrasse 115, 117, 8052 Zurich, transformation de bureaux en logements, appel d'offres BKP 285.1 : travaux de peinture intérieure",
+            "it": null
+          },
+          "projectNumber": "36999",
+          "projectType": "tender",
+          "projectSubType": "construction",
+          "processType": "open",
+          "lotsType": "without",
+          "publicationId": "98c0c60a-6f1c-43a2-9a43-076089d86341",
+          "publicationDate": "2026-09-12",
+          "publicationNumber": "36999-03",
+          "pubType": "award",
+          "corrected": false,
+          "procOfficeName": {
+            "de": "Stiftung PWG",
+            "en": null,
+            "fr": null,
+            "it": null
+          },
+          "lots": [],
+          "orderAddressOnlyDescription": "no",
+          "orderAddress": {
+            "countryId": "CH",
+            "cantonId": "ZH",
+            "postalCode": "8052",
+            "city": {
+              "de": "Zürich",
+              "en": null,
+              "fr": null,
+              "it": null
+            }
+          }
+        },
+        "updated_at": "2026-09-12T04:18:56.739280+00:00",
+        "publication_id": "98c0c60a-6f1c-43a2-9a43-076089d86341"
+      }
+    }
+  ],
+  "matches": [
+    {
+      "id": "id_ve1k0qwmtx74yth",
+      "companyId": "id_90jp9gzmtx5q2ux",
+      "tenderId": "tender_ch_001",
+      "score": 70,
+      "reasons": [
+        "Matched 1 CPV code(s): 72000000-5",
+        "Matched keywords: cloud, security, infrastructure",
+        "Location matched: Switzerland"
+      ],
+      "createdAt": "2026-09-11T16:54:30.725Z"
+    },
+    {
+      "id": "id_s12ywgzmtx74yth",
+      "companyId": "id_90jp9gzmtx5q2ux",
+      "tenderId": "tender_ch_002",
+      "score": 70,
+      "reasons": [
+        "Matched 1 CPV code(s): 31682000-0",
+        "Matched keywords: software, telemetry, smart",
+        "Location matched: Switzerland"
+      ],
+      "createdAt": "2026-09-11T16:54:30.725Z"
+    },
+    {
+      "id": "id_1r7elsgmtx74yth",
+      "companyId": "id_90jp9gzmtx5q2ux",
+      "tenderId": "tender_ch_003",
+      "score": 40,
+      "reasons": [
+        "Matched 1 CPV code(s): 48180000-3",
+        "Location matched: Switzerland"
+      ],
+      "createdAt": "2026-09-11T16:54:30.725Z"
+    },
+    {
+      "id": "id_e6sq6o3mtx74yth",
+      "companyId": "id_90jp9gzmtx5q2ux",
+      "tenderId": "tender_ch_004",
+      "score": 30,
+      "reasons": [
+        "Matched keywords: infrastructure",
+        "Location matched: Switzerland"
+      ],
+      "createdAt": "2026-09-11T16:54:30.725Z"
+    },
+    {
+      "id": "id_dk81gg4mtx74yth",
+      "companyId": "id_90jp9gzmtx5q2ux",
+      "tenderId": "tender_ch_005",
+      "score": 30,
+      "reasons": [
+        "Matched keywords: infrastructure",
+        "Location matched: Switzerland"
+      ],
+      "createdAt": "2026-09-11T16:54:30.725Z"
+    },
+    {
+      "id": "id_fe04ookmtx74yth",
+      "companyId": "id_90jp9gzmtx5q2ux",
+      "tenderId": "tender_eu_006",
+      "score": 10,
+      "reasons": [
+        "Matched keywords: telemetry"
+      ],
+      "createdAt": "2026-09-11T16:54:30.725Z"
+    },
+    {
+      "id": "id_bddoh4emtx74yth",
+      "companyId": "id_90jp9gzmtx5q2ux",
+      "tenderId": "tender_ch_007",
+      "score": 30,
+      "reasons": [
+        "Matched keywords: security",
+        "Location matched: Switzerland"
+      ],
+      "createdAt": "2026-09-11T16:54:30.725Z"
+    },
+    {
+      "id": "id_j220ru4mtx74yth",
+      "companyId": "id_90jp9gzmtx5q2ux",
+      "tenderId": "tender_ch_008",
+      "score": 20,
+      "reasons": [
+        "Location matched: Switzerland"
+      ],
+      "createdAt": "2026-09-11T16:54:30.725Z"
+    },
+    {
+      "id": "id_bv0dp5pmtxyv9vv",
+      "companyId": "id_5ne4dksmtxyv9vs",
+      "tenderId": "tender_ch_001",
+      "score": 99,
+      "reasons": [
+        "Strong alignment with capabilities: cloud, software, security, infrastructure",
+        "Direct CPV code category match (72000000-5)",
+        "Contract value fits target budget parameters",
+        "Target procurement authority in Bern, Switzerland"
+      ],
+      "createdAt": "2026-09-12T05:50:47.755Z"
+    },
+    {
+      "id": "id_9r28svzmtxyv9vv",
+      "companyId": "id_5ne4dksmtxyv9vs",
+      "tenderId": "tender_ch_002",
+      "score": 99,
+      "reasons": [
+        "Strong alignment with capabilities: software, telemetry, smart",
+        "Direct CPV code category match (31682000-0)",
+        "Contract value fits target budget parameters",
+        "Target procurement authority in Zurich, Switzerland"
+      ],
+      "createdAt": "2026-09-12T05:50:47.755Z"
+    },
+    {
+      "id": "id_cqzcrl1mtxyv9vv",
+      "companyId": "id_5ne4dksmtxyv9vs",
+      "tenderId": "tender_ch_003",
+      "score": 95,
+      "reasons": [
+        "Direct CPV code category match (48180000-3)",
+        "Contract value fits target budget parameters",
+        "Target procurement authority in Geneva, Switzerland"
+      ],
+      "createdAt": "2026-09-12T05:50:47.755Z"
+    },
+    {
+      "id": "id_l2gnz39mtxyv9vv",
+      "companyId": "id_5ne4dksmtxyv9vs",
+      "tenderId": "tender_ch_004",
+      "score": 90,
+      "reasons": [
+        "Strong alignment with capabilities: infrastructure",
+        "Contract value fits target budget parameters",
+        "Target procurement authority in Olten / Bern, Switzerland"
+      ],
+      "createdAt": "2026-09-12T05:50:47.755Z"
+    },
+    {
+      "id": "id_21dn7lgmtxyv9vv",
+      "companyId": "id_5ne4dksmtxyv9vs",
+      "tenderId": "tender_ch_005",
+      "score": 99,
+      "reasons": [
+        "Strong alignment with capabilities: software, infrastructure",
+        "Contract value fits target budget parameters",
+        "Target procurement authority in Basel, Switzerland"
+      ],
+      "createdAt": "2026-09-12T05:50:47.755Z"
+    },
+    {
+      "id": "id_a6q982kmtxyv9vv",
+      "companyId": "id_5ne4dksmtxyv9vs",
+      "tenderId": "tender_eu_006",
+      "score": 80,
+      "reasons": [
+        "Strong alignment with capabilities: telemetry",
+        "Contract value fits target budget parameters"
+      ],
+      "createdAt": "2026-09-12T05:50:47.755Z"
+    },
+    {
+      "id": "id_t5sw179mtxyv9vv",
+      "companyId": "id_5ne4dksmtxyv9vs",
+      "tenderId": "tender_ch_007",
+      "score": 90,
+      "reasons": [
+        "Strong alignment with capabilities: security",
+        "Contract value fits target budget parameters",
+        "Target procurement authority in Lucerne, Switzerland"
+      ],
+      "createdAt": "2026-09-12T05:50:47.755Z"
+    },
+    {
+      "id": "id_on9fkfomtxyv9vv",
+      "companyId": "id_5ne4dksmtxyv9vs",
+      "tenderId": "tender_ch_008",
+      "score": 75,
+      "reasons": [
+        "Contract value fits target budget parameters",
+        "Target procurement authority in Lausanne, Switzerland"
+      ],
+      "createdAt": "2026-09-12T05:50:47.755Z"
+    },
+    {
+      "id": "id_85ruvysmtxyv9vv",
+      "companyId": "id_5ne4dksmtxyv9vs",
+      "tenderId": "id_m7x6m8gmtxvl63q",
+      "score": 50,
+      "reasons": [
+        "General capability alignment with European public procurement standards"
+      ],
+      "createdAt": "2026-09-12T05:50:47.755Z"
+    },
+    {
+      "id": "id_jxjp2trmtxyv9vv",
+      "companyId": "id_5ne4dksmtxyv9vs",
+      "tenderId": "id_siqd68mmtxvl63w",
+      "score": 50,
+      "reasons": [
+        "General capability alignment with European public procurement standards"
+      ],
+      "createdAt": "2026-09-12T05:50:47.755Z"
+    },
+    {
+      "id": "id_3kxmlprmtxyv9vv",
+      "companyId": "id_5ne4dksmtxyv9vs",
+      "tenderId": "id_3sgiq64mtxvl63y",
+      "score": 50,
+      "reasons": [
+        "General capability alignment with European public procurement standards"
+      ],
+      "createdAt": "2026-09-12T05:50:47.755Z"
+    },
+    {
+      "id": "id_3e7gqsamtxyv9vv",
+      "companyId": "id_5ne4dksmtxyv9vs",
+      "tenderId": "id_ghxgaj1mtxvl643",
+      "score": 50,
+      "reasons": [
+        "General capability alignment with European public procurement standards"
+      ],
+      "createdAt": "2026-09-12T05:50:47.755Z"
+    },
+    {
+      "id": "id_7lrd07smtxyv9vv",
+      "companyId": "id_5ne4dksmtxyv9vs",
+      "tenderId": "id_f8x8kvamtxvl646",
+      "score": 50,
+      "reasons": [
+        "General capability alignment with European public procurement standards"
+      ],
+      "createdAt": "2026-09-12T05:50:47.755Z"
+    }
+  ],
+  "bookmarks": [],
+  "bids": [],
+  "teams": [],
+  "teamMembers": [],
+  "analysisReports": []
+}

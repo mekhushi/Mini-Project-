@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+.next/
+frontend/dev/
+
+# Logs & Sync states
+*.log
+simap_sync.log
+.sync_state.json
+backend/.sync_state.json
+
+# Scratch & Temporary
+scratch/
+backend/scratch/
+.DS_Store
+Thumbs.db
+*.tmp
